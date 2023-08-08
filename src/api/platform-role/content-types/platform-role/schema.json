@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "platform_roles",
+  "info": {
+    "singularName": "platform-role",
+    "pluralName": "platform-roles",
+    "displayName": "Platform role"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "uid": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

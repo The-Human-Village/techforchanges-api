@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_landing_app_how_tos",
+  "info": {
+    "displayName": "App how to",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "How To Use It",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "steps": {
+      "displayName": "App how to step",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.app-how-to-step"
+    }
+  }
+}

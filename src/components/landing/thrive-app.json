@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_landing_thrive_apps",
+  "info": {
+    "displayName": "Thrive app",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true,
+      "regex": "^https:\\/\\/[^ \"]+$"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "hero_description": {
+      "type": "text",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Thrive app"
+    },
+    "need_help": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.app-help"
+    },
+    "want_help": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.app-help"
+    },
+    "want_volunteer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.app-help"
+    },
+    "offer": {
+      "displayName": "App offer",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.app-offer",
+      "required": true
+    },
+    "for_who": {
+      "displayName": "App who is it for",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.app-who-is-it-for"
+    },
+    "how_to": {
+      "displayName": "App how to",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.app-how-to"
+    },
+    "testimonials": {
+      "displayName": "App testimonials",
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.app-testimonials"
+    }
+  }
+}

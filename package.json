@@ -1,0 +1,33 @@
+{
+  "name": "t4c-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Strapi CMS for tech for changes landing page and Thrive app",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-documentation": "4.11.1",
+    "@strapi/plugin-i18n": "4.11.1",
+    "@strapi/plugin-users-permissions": "4.11.1",
+    "@strapi/provider-email-amazon-ses": "4.11.1",
+    "@strapi/provider-upload-aws-s3": "4.11.1",
+    "@strapi/strapi": "4.11.1",
+    "pg": "8.11.0",
+    "strapi-plugin-entity-relationship-chart": "4.1.0",
+    "strapi-plugin-react-editorjs": "2.0.2"
+  },
+  "engines": {
+    "node": "=18.16.0",
+    "yarn": ">=3.6.0"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@3.6.1",
+  "resolutions": {
+    "@strapi/plugin-i18n@4.11.1": "patch:@strapi/plugin-i18n@npm%3A4.11.1#./.yarn/patches/@strapi-plugin-i18n-npm-4.11.1-ec98a7c265.patch",
+    "strapi-plugin-react-editorjs@2.0.2": "patch:strapi-plugin-react-editorjs@npm%3A2.0.2#./.yarn/patches/strapi-plugin-react-editorjs-npm-2.0.2-d4a65868cc.patch"
+  }
+}

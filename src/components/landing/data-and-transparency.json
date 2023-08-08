@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_landing_data_and_transparencies",
+  "info": {
+    "displayName": "Data and Transparency",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Data & Transparency",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "files": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

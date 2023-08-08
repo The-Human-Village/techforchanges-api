@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_landing_app_who_is_it_fors",
+  "info": {
+    "displayName": "App who is it for",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Who Is It For"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

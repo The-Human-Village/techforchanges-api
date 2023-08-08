@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_landing_app_testimonial",
+  "info": {
+    "displayName": "App testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "from": {
+      "type": "string"
+    }
+  }
+}

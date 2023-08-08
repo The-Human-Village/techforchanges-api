@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_pp_cp_tou_items",
+  "info": {
+    "displayName": "PP-CP-TOU item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_landing_app_offers",
+  "info": {
+    "displayName": "App offer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "What We Offer"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

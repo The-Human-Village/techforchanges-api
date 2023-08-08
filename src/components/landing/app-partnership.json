@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_app_partnerships",
+  "info": {
+    "displayName": "App partnership",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "private": true
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.app-partnership-card"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_landing_app_helps",
+  "info": {
+    "displayName": "App help",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "regex": "^https:\\/\\/[^ \"]+$"
+    },
+    "hero_content": {
+      "type": "text"
+    },
+    "read_more_button_title": {
+      "type": "string"
+    },
+    "go_to_button_title": {
+      "type": "string"
+    }
+  }
+}

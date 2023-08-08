@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_landing_partner_sections",
+  "info": {
+    "displayName": "Partner section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Partners"
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "hero_description": {
+      "type": "text",
+      "required": false
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.partners"
+    },
+    "see_more_link_label": {
+      "type": "string"
+    }
+  }
+}

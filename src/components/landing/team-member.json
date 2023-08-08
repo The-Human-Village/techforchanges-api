@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_landing_team_members",
+  "info": {
+    "displayName": "Team member",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linked_in": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text"
+    }
+  }
+}

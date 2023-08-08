@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_landing_visions",
+  "info": {
+    "displayName": "Vision",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Vision"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.vision-item"
+    }
+  }
+}

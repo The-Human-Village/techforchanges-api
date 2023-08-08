@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_landing_vision_items",
+  "info": {
+    "displayName": "Vision item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text",
+      "required": false
+    },
+    "order": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "unique": false
+    },
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "required": true,
+      "default": "right"
+    },
+    "enhanced": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

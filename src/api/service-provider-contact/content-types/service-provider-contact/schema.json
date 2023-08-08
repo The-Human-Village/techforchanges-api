@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_provider_contacts",
+  "info": {
+    "singularName": "service-provider-contact",
+    "pluralName": "service-provider-contacts",
+    "displayName": "Service Provider Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "uid": {
+      "type": "uid",
+      "targetField": "last_name"
+    },
+    "role": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::language.language"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "telephone_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

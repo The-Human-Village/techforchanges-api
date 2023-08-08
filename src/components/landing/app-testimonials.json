@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_app_testimonials",
+  "info": {
+    "displayName": "App testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Testimonials"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "displayName": "App testimonial",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.app-testimonial"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_landing_locations",
+  "info": {
+    "displayName": "Location",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Location"
+    },
+    "number_organisations": {
+      "type": "string",
+      "required": true
+    },
+    "number_cities": {
+      "type": "string",
+      "required": true
+    },
+    "number_countries": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "organisations_label": {
+      "type": "string"
+    },
+    "cities_label": {
+      "type": "string"
+    },
+    "countries_label": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_landing_partners",
+  "info": {
+    "displayName": "Partner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    }
+  }
+}

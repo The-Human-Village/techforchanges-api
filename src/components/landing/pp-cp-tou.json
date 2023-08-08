@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_landing_pp_cp_tous",
+  "info": {
+    "displayName": "PP-CP-TOU",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.pp-cp-tou-item"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_landing_stories",
+  "info": {
+    "displayName": "Story",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Story"
+    },
+    "part1": {
+      "type": "text",
+      "required": true
+    },
+    "part2": {
+      "type": "text",
+      "required": true
+    },
+    "part1_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "part2_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

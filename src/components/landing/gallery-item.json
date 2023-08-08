@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_gallery_items",
+  "info": {
+    "displayName": "Gallery item"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    }
+  }
+}
